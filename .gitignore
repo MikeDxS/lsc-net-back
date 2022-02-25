@@ -1,1 +1,4 @@
 /video/*
+.vercel
+/__pycache__/*
+/.vscode/*
