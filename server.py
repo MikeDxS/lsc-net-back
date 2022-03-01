@@ -37,6 +37,9 @@ CHANNELS = 3
 NBFRAME = 16
 BS = 1
 
+if not os.path.exists(UPLOAD_FOLDER):
+    os.mkdir(UPLOAD_FOLDER)
+
 model = tf.keras.models.load_model('./model/conv3d.h5')
 
 def allowed_file(filename: str) -> bool:
