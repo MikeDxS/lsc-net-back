@@ -1,4 +1,5 @@
 /video/*
+!/video
 .vercel
 /__pycache__/*
 /.vscode/*
